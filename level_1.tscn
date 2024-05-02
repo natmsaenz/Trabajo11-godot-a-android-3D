@@ -26,6 +26,16 @@ shape = SubResource("BoxShape3D_na7ep")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.753816, 0.657086, 0, -0.657086, 0.753816, 0, 7.15093, 7.56399)
+shadow_enabled = true
 
-[node name="Block" parent="." instance=ExtResource("1_qpybb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+[node name="Block1" parent="." instance=ExtResource("1_qpybb")]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 2, 0)
+
+[node name="Block2" parent="." instance=ExtResource("1_qpybb")]
+transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, 1, 4, 1)
+
+[node name="Block3" parent="." instance=ExtResource("1_qpybb")]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 4.84613, -1.21639)
+
+[node name="Block4" parent="." instance=ExtResource("1_qpybb")]
+transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, 1, 6.84613, -0.216394)
