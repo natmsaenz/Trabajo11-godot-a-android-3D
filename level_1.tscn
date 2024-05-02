@@ -9,13 +9,18 @@ size = Vector3(10, 0.5, 10)
 [node name="Level1" type="Node3D"]
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.982932, 0.183968, 0, -0.178945, 0.956093, 0.232087, 0.0426968, -0.228126, 0.972695, 0, 1.80501, 3.76055)
+transform = Transform3D(0.998731, -0.0162691, -0.0476552, 0.0266962, 0.973496, 0.227142, 0.0426968, -0.228126, 0.972695, 0, 3.80501, 13.7606)
 fov = 40.7079
 
 [node name="Floor" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.270845, 0)
+metadata/_edit_group_ = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
 mesh = SubResource("BoxMesh_e1h13")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Floor"]
 shape = SubResource("BoxShape3D_na7ep")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.753816, 0.657086, 0, -0.657086, 0.753816, 0, 7.15093, 7.56399)
