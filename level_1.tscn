@@ -17,10 +17,6 @@ size = Vector3(10, 0.5, 10)
 
 [node name="Level1" type="Node3D"]
 
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.998731, -0.0162691, -0.0476552, 0.0266962, 0.973496, 0.227142, 0.0426968, -0.228126, 0.972695, 0, 3.80501, 13.7606)
-fov = 40.7079
-
 [node name="Floor" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.270845, 0)
 metadata/_edit_group_ = true
