@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Trabajo-11-godot-a-android-3D"
+run/main_scene="res://level_1.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
